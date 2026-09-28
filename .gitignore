@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.vscode/
+.idea/
+# Never commit the raw trace (tens of GB) or your local sampled copies of it
+DockerRegistryTraces/
+data/*
+!data/README.md
+!data/sample_stage-dal09.json
